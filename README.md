@@ -1,57 +1,43 @@
-# Alkaid Mount - DIY Equatorial Mount with HarmonicDrive
+# Pacific EQ Mount
 
-![rendering](renderings/GIF.gif)
+Welcome to the Pacific EQ Mount project repository! This project is inspired by the AlkaidMount project (https://github.com/alanzjl/AlkaidMount) and a video by [XYZ](https://youtu.be/k2GoMa2DpH8), which served as a foundation for the development of the Pacific EQ Mount. The Pacific EQ Mount aims to provide an open-source design for a German Equatorial Mount (GEM) for astronomy enthusiasts. The mount offers an affordable and accessible option for astrophotography and observation, allowing you to capture stunning images of the night sky.
 
-Built by JZ.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-For my build log, checkout [this page on my website](https://alanz.info/posts/2022/07/diy-mount/).
+## Overview
+The Pacific EQ Mount is a DIY project designed to provide a stable and precise platform for tracking celestial objects. By following the instructions and utilizing the provided CAD files and documentation, you can build your own GEM. Whether you are an experienced astronomer or a hobbyist, this project aims to empower you to explore the wonders of the universe.
 
-The following YouTube video documents all the processes with no explaination:
-[![Youtube Video](https://img.youtube.com/vi/k2GoMa2DpH8/0.jpg)](https://www.youtube.com/watch?v=k2GoMa2DpH8)
+## Features
+- **Stability**: The Pacific EQ Mount offers a sturdy and robust structure to minimize vibrations and ensure precise tracking for long-exposure astrophotography.
+- **Versatility**: This mount is compatible with a wide range of telescopes and camera setups, allowing you to adapt it to your specific needs and equipment.
+- **Motorized Tracking**: The Pacific EQ Mount incorporates a motor drive system to automatically track celestial objects, reducing the need for constant manual adjustments.
+- **Open-Source Design**: The project is released under an open-source license, providing the opportunity for collaboration, modifications, and improvements by the community.
 
-The same video can also be found on [bilibili](https://www.bilibili.com/video/BV1SR4y1X7bt/?share_source=copy_web&vd_source=4d6f936f693563e28752aadac9dd326f).
+## Getting Started
+To get started with the Pacific EQ Mount, please refer to the [Documentation](./docs) directory in this repository. The documentation provides detailed instructions on the assembly process, necessary components, and recommended calibration procedures. It's essential to review the documentation thoroughly before beginning the build to ensure a successful outcome.
 
-- Note: do not directly use the dxf files under the Machine/ folder.
-They are for reference only and they might contain duplicated parts, because I had to make several parts more than once due to some mistakes at the beginning.
-I'd recommend looking at the solidworks files first and try to understand every part, then generate your own dxf.
+### Prerequisites
+- Basic knowledge of astronomy and telescope usage.
+- Access to a 3D printer for creating the necessary components (CAD files provided).
+- Familiarity with electronics and wiring (for motor drive system installation).
+- Basic hand tools and hardware (screws, nuts, etc.) for assembly.
 
-## Introduction
-AlkaidMount is a DIY aluminum HarmonicDrive German style equatorial mount with a ~25lbs unbalanced or >70lbs balanced load capacity, with a self weight of only ~16lbs.
-Each axis consists of a 100:1 HarmonicDrive gearbox, followed by a 27:1 planetary gearbox, driven by a Nema17 stepper motor.
+### Installation and Assembly
+1. Clone or download this repository to your local machine.
+2. Refer to the [Assembly Guide](./docs/assembly.md) for step-by-step instructions on building the Pacific EQ Mount.
+3. Follow the guide carefully, ensuring precise alignment of the RA and DEC axes, and proper installation of the motor drive system.
+4. Once assembled, refer to the [Calibration Guide](./docs/calibration.md) to fine-tune the mount's performance and achieve accurate tracking.
 
-Weight capacity is calculated with gearbox load limits as well as rigid body simulation.
-Note that I have not yet done any torture tests, so those numbers are all theoratical. 
-I've only tested it on the two scopes I own - an unbalanced Williams Optics GT71 setup (~15lbs) and balanced a Meade LX200 8" SCT setup (~25lbs not including the counterweights).
-Both setups worked beautifully.
+## Contributing
+Contributions to the Pacific EQ Mount project are welcome! If you have ideas, bug fixes, or enhancements, feel free to submit them as issues or pull requests. Please review the [Contribution Guidelines](./CONTRIBUTING.md) for more details on how to contribute to this project.
 
-This repo contains ALL the design files (CAD, manufacture drawings, PCB files, software) to make the AlkaidMount.
-I made this repo public to inspire other ideas.
-Due to the difficulty in sourcing the exact same model of the two HarmonicDrive's (unless you buy new:), replicating the exact same mount would be hard. 
-However modifying this design to suite other HD models shouldn't be too hard.
+## License
+The Pacific EQ Mount project is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute the project's files and documentation in accordance with the terms of the license.
 
-## BOM - Hardware
------------
-| Name | Quantity | Drawings | Datasheet |
-| -------- | -------- | -------- | -------- |
-| Harmonic Drive CSF-17-100-2UH-LW | 2 | [Drawings](https://www.harmonicdrive.net/_hd/content/caddownloads/dxf/csf-2uh_gearheads/csf-17-xx-2uh.pdf) | [Datasheet](https://www.harmonicdrive.net/products/gear-units/gear-units/csf-2uh/csf-17-100-2uh) |
-| Nema 17 with 27:1 Planetary Gearbox | 2 | [Drawings](https://www.omc-stepperonline.com/download/17HS19-1684S-PG27.pdf) | [Datasheet](https://www.omc-stepperonline.com/nema-17-stepper-motor-bipolar-l-48mm-w-gear-ratio-27-1-planetary-gearbox-17hs19-1684s-pg27) |
-| 1/8" Aluminum plate | 12"x12" minimum | - | - |
-| 1/4" Aluminum plate | - | - | - |
-| M4x8 | many :) | - | - |
-| M3x8 | not that many :] | - | - |
-| M5x8 | a few :{ | - | - |
-
-
-## BOM - Electronics
------------
-| Name | Quantity | Drawings | Datasheet |
-| -------- | -------- | -------- | -------- |
-| Teensy 4.0 | 1 | - | - |
-| ESP-32 (for wifi control) | 1 | - | - |
-
-For parts on the PCB, see [PCB/parts.txt](PCB/parts.txt).
-
-## Manufacturing guide
-
-Most parts were made with 2D waterjetting, with not too much post-processing (tab removal, tapping if needed).
-Some parts have holes on the side, so some milling was involved.
+## Acknowledgments
+This project is inspired by the AlkaidMount project (https://github.com/alanzjl/AlkaidMount

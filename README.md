@@ -1,6 +1,6 @@
 # Pacific EQ Mount
 
-Welcome to the Pacific EQ Mount project repository! This project is inspired by the AlkaidMount project (https://github.com/alanzjl/AlkaidMount) and a video by [XYZ](https://youtu.be/k2GoMa2DpH8), which served as a foundation for the development of the Pacific EQ Mount. The Pacific EQ Mount aims to provide an open-source design for a German Equatorial Mount (GEM) for astronomy enthusiasts. The mount offers an affordable and accessible option for astrophotography and observation, allowing you to capture stunning images of the night sky.
+Welcome to the Pacific Mount project repository! This project is inspired by the AlkaidMount project (https://github.com/alanzjl/AlkaidMount) and a video by [Crafted By JZ](https://youtu.be/k2GoMa2DpH8), which served as a foundation for the development of the Pacific EQ Mount. The Pacific EQ Mount aims to provide an open-source design for a German Equatorial Mount (GEM) for astronomy enthusiasts. The mount offers an affordable and accessible option for astrophotography and observation, allowing you to capture stunning images of the night sky.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,16 +10,16 @@ Welcome to the Pacific EQ Mount project repository! This project is inspired by 
 - [License](#license)
 
 ## Overview
-The Pacific EQ Mount is a DIY project designed to provide a stable and precise platform for tracking celestial objects. By following the instructions and utilizing the provided CAD files and documentation, you can build your own GEM. Whether you are an experienced astronomer or a hobbyist, this project aims to empower you to explore the wonders of the universe.
+The Pacific Mount is a DIY project designed to provide a stable and precise platform for tracking celestial objects. By following the instructions and utilizing the provided CAD files and documentation, you can build your own GEM. Whether you are an experienced astronomer or a hobbyist, this project aims to empower you to explore the wonders of the universe.
 
 ## Features
-- **Stability**: The Pacific EQ Mount offers a sturdy and robust structure to minimize vibrations and ensure precise tracking for long-exposure astrophotography.
+- **Stability**: The Pacific Mount offers a sturdy and robust structure to minimize vibrations and ensure precise tracking for long-exposure astrophotography.
 - **Versatility**: This mount is compatible with a wide range of telescopes and camera setups, allowing you to adapt it to your specific needs and equipment.
 - **Motorized Tracking**: The Pacific EQ Mount incorporates a motor drive system to automatically track celestial objects, reducing the need for constant manual adjustments.
 - **Open-Source Design**: The project is released under an open-source license, providing the opportunity for collaboration, modifications, and improvements by the community.
 
 ## Getting Started
-To get started with the Pacific EQ Mount, please refer to the [Documentation](./docs) directory in this repository. The documentation provides detailed instructions on the assembly process, necessary components, and recommended calibration procedures. It's essential to review the documentation thoroughly before beginning the build to ensure a successful outcome.
+To get started with the Pacific Mount, please refer to the [Documentation](./docs) directory in this repository. The documentation provides detailed instructions on the assembly process, necessary components, and recommended calibration procedures. It's essential to review the documentation thoroughly before beginning the build to ensure a successful outcome.
 
 ### Prerequisites
 - Basic knowledge of astronomy and telescope usage.
